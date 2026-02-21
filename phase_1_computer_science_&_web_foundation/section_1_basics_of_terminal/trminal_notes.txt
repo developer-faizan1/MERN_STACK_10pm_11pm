@@ -1,0 +1,187 @@
+Terminal vs Shell
+*****************
+    Terminal is like browser while shell is like tab in browser.
+
+    Example :
+        Terminal
+        Bash Terminal 
+
+    Easy real-life example
+    ======================
+        Think like this:
+        ----------------
+        Terminal → Browser (Chrome)
+        Shell → Tab inside browser
+        Command → Website you open
+
+
+Why should we learn Bash Terminal
+*********************************
+    Websites run on servers, and most servers use Linux without a graphical interface. To control Linux, we use Bash commands. Developers learn Bash because deploying, running, fixing, and automating websites on servers is done through the Bash terminal, not with a mouse or GUI.
+
+
+
+**********************************************************************
+                                Commands
+**********************************************************************
+
+    pwd                 current working directory
+    whoami              current user
+    create variable
+    echo                to print
+
+
+Navigating the File System
+**************************
+    cd                  ~(home directory)     /(root directory)  cd .. , cd~
+
+
+Listing Directory Contents
+**************************
+    ls                  list all content
+    ls -a               list all file including hidden file
+    ls -la              list all file with more info
+
+
+Creating, Copying, Moving, and Deleting Files and Directories
+*************************************************************
+    touch               to create file 
+    mkdir               to create directory 
+    cp                  to copy 
+    mv                  to move 
+    mv                  to rename
+    rmdir               to remove empty directory
+    rm -r               to remove file and directory
+    #Task-1
+        Create 1k file 
+
+
+Viewing and Editing Files with Commands
+***************************************
+    cat                 to read file 
+    nano                to edit
+    vim                 to edit
+
+    vim code editor
+    ***************
+        There are 3 mode in vim code editor
+            1. Normal Mode (Default Mode)
+            =============================
+
+                Purpose: Navigation and commands
+
+                Use for:
+                --------
+                Move cursor → h j k l
+                Delete → dd
+                Copy → yy
+                Paste → p
+
+                ⭐ Developer Pro Tip (Most Used)
+                ---------------------------------
+                 Command                  Use               
+                 ---------                ----------------- 
+                 yy                       copy current line 
+                 5yy                      copy 5 lines      
+                 Shift + V                select lines      
+                 y                        copy              
+                 p                        paste             
+
+
+
+            2. Insert Mode
+            ==============
+                Purpose: Writing and editing text
+
+                Enter insert mode:
+                -----------------
+                    Press i → insert before cursor
+                    Press a → insert after cursor
+                    Press o → new line
+
+                Exit insert mode:
+                -----------------
+                    Press Esc
+                    You will see -- INSERT -- at bottom.
+
+                    :w          write(save)
+                    :q          exit 
+                    :q!         exit without save 
+                    :wq         save & exit
+
+
+
+            3. Visual Mode
+            ==============
+                Purpose: Select text
+
+                Enter visual mode:
+                ------------------
+                    Press v → character select
+                    Press V → line select
+                    Press Ctrl + v → block select
+
+                Use for:
+                --------
+                    Copy
+                    Delete
+                    Cut selected text
+
+            Note : Easy way to remember
+                    Normal → Move
+                    Insert → Write
+                    Visual → Select
+
+                - On remote server we want to change in any file then we use vim or nano editor.
+
+
+What is prompt 
+**************
+    PS E:\faizan_workspace\Full_Stack_Web_Development\Backend_with_NodeJs> (this is called prompt)
+
+
+
+Configuring Our Terminal Using .bashrc File
+*******************************************
+    git bash have 2 variables which is PS1 and PS2
+    PS1 is used to customize prompt
+
+    How to customize
+    ----------------
+        step-1      go to home directory 
+        step-2      create bashrc file 
+        step-3      override PS1 variable
+
+        then open new terminal reflect the changes in prompt
+        to avoid open new terminal source ~/.bashrc
+
+
+
+
+Using Aliases for Command Shortcuts (alias)
+*******************************************
+    step-1      go to bashrc file 
+    step-2      alias name="give the Command"
+    step-3      source ~/.bashrc 
+
+    Now alias is available .
+
+
+
+Upcoming commands
+*****************
+clear
+history
+less
+head
+tail
+grep
+find
+chmod
+ps
+kill
+sudo
+apt
+export
+ssh
+

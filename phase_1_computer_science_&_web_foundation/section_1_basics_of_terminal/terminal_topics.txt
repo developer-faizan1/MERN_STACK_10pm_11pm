@@ -1,0 +1,12 @@
+Terminal vs Shell
+Why should we learn Bash Terminal
+Basic Shell Commands 
+Navigating the File System
+Listing Directory Contents
+Creating, Copying, Moving, and Deleting Files and Directories
+Viewing and Editing Files with Commands
+What is prompt 
+Configuring Our Terminal Using .bashrc File
+Using Aliases for Command Shortcuts (alias)
+
+
