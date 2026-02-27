@@ -10,3 +10,6 @@ Configuring Our Terminal Using .bashrc File
 Using Aliases for Command Shortcuts (alias)
 
 
+
+
+

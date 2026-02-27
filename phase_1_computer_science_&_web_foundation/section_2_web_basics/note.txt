@@ -1,0 +1,33 @@
+What is Internet ?
+******************
+    Internet is a global network of connected computers and devices that communicate and share data with each other.
+
+    Internet = network of network
+
+
+What is Protocol
+****************
+define Set of rule to communicate
+
+
+DNS (Domain Name Server)
+------------------------
+    Domain to IP Address
+    google.com ---->  145.25.63.000
+
+SMPT (Simple Mail Transfer Protocol)
+------------------------------------
+    Use - To send Mail 
+    Example - Gmail to Email
+
+FTP (File Transfer Protocol)
+----------------------------
+use - Upload file on Server 
+Example - Website hosting
+
+
+
+HTTP and HTTPS(website communicate)
+-----------------------------------
+HTTP --> Hyper Text Transfer Protocol
+HTTPS -> Hyper Text Transfer Protocol Secure

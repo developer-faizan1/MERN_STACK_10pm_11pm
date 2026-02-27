@@ -137,8 +137,9 @@ Viewing and Editing Files with Commands
 
 What is prompt 
 **************
-    PS E:\faizan_workspace\Full_Stack_Web_Development\Backend_with_NodeJs> (this is called prompt)
+    PS E:\faizan_workspace\Full_Stack_Web_Development\Backend_with_NodeJs> (this is called prompt)  ===> PS1
 
+  
 
 
 Configuring Our Terminal Using .bashrc File
@@ -184,4 +185,9 @@ sudo
 apt
 export
 ssh
+
+
+
+
+
 
