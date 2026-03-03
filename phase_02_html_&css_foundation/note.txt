@@ -1,0 +1,18 @@
+Basic Tags
+Formatting Tags 
+Links, Image and attribute 
+List 
+Project
+Table
+Element vs Tag 
+Inline vs Block
+Quotations 
+Global vs Custom attribute 
+Type of Tags
+Forms
+Semantic HTML
+Routing
+Head 
+Multimedia
+HTML Entities 
+Iframe
