@@ -1,14 +1,14 @@
 Basic Tags
 Formatting Tags 
+Element vs Tag 
 Links, Image and attribute 
 List 
 Project
 Table
-Element vs Tag 
+Type of Tags
 Inline vs Block
 Quotations 
 Global vs Custom attribute 
-Type of Tags
 Forms
 Semantic HTML
 Routing
