@@ -4,9 +4,9 @@ Element vs Tag
 Links, Image and attribute 
 List 
 Project
+Inline vs Block
 Table
 Type of Tags
-Inline vs Block
 Quotations 
 Global vs Custom attribute 
 Forms
